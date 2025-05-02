@@ -8,9 +8,8 @@ This project uses chest X-ray images from the Kaggle dataset [Chest X-Ray Images
 
 ### Prerequisites
 
-- curl
-- unzip
-- Kaggle API access (the setup script uses a direct download link)
+- Python 3.6+
+- pip (Python package manager)
 
 ### Installation
 
@@ -32,6 +31,7 @@ This project uses chest X-ray images from the Kaggle dataset [Chest X-Ray Images
    ```
 
 The setup script will:
+- Install all required Python dependencies from requirements.txt
 - Download the chest X-ray pneumonia dataset
 - Extract the dataset to the `data` directory
 - Clean up temporary files

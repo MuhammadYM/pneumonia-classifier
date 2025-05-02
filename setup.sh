@@ -2,6 +2,11 @@
 
 echo "Setting up pneumonia classifier project..."
 
+# Install Python dependencies
+echo "Installing Python dependencies..."
+python -m pip install --upgrade pip
+pip install -r requirements.txt
+
 # Create data directory if it doesn't exist
 mkdir -p data
 
@@ -29,4 +34,4 @@ fi
 rm -rf data/__MACOSX
 rm data/chest-xray-pneumonia.zip
 
-echo "Setup complete! Dataset is ready in the data directory."
+echo "Setup complete! Dataset is ready in the data directory and all dependencies are installed."
