@@ -1,6 +1,8 @@
 # Pneumonia Chest X-Ray Classifier
 
 A deep learning model for classifying chest X-ray images to detect pneumonia.
+**The model is still in progress, I'm still working on it. View the next steps at the bottom**
+
 
 ## Setup Instructions
 
@@ -47,6 +49,7 @@ After running the setup script, your `data` directory will contain:
 
 [Instructions for model training will be added here]
 
-## License
+## Next steps
+- Implement regularization techniques (e.g Dropout layer) to decrease high variance
+- Evaluate the model using test_generator
 
-[Add your license information here] 
